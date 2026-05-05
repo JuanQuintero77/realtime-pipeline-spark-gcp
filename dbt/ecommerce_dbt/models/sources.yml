@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: silver
+    tables:
+      - name: orders
+        external:
+          location: "/home/juan/projects/proyecto-ecommerce/data/silver/orders/**/*.parquet"
+      - name: payments
+        external:
+          location: "/home/juan/projects/proyecto-ecommerce/data/silver/payments/**/*.parquet"

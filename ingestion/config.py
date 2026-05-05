@@ -1,0 +1,3 @@
+BATCH_SIZE = 50
+SLEEP_TIME = 10
+OUTPUT_PATH = "data/raw/events"

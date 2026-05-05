@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+
+data/
+*.parquet
+*.crc
+*.duckdb
+
+dbt/logs/
+dbt/.user.yml
+dbt/profiles.yml
+
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
